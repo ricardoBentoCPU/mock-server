@@ -1,0 +1,18 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Ricardo",
+        "email": "ricardo@gmail.com",
+        "age": 41
+      },
+      {
+        "id": 2,
+        "name": "Luis",
+        "email": "luissachin@gmail.com",
+        "age": 18
+      }
+    ]
+  }
+}
