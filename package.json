@@ -2,6 +2,7 @@
   "name": "mock-server",
   "version": "0.0.1",
   "scripts": {
+    "start": "nodemon server/server.js --ext js,ts,json,html",
     "mock:server": "nodemon server/server.js --ext js,ts,json,html"
   },
   "private": true,

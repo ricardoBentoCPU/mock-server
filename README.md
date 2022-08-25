@@ -12,6 +12,6 @@ npm run mock:server
 http://localhost:3000/api/users
 
 
-#### REferences
+#### References
 
 https://www.npmjs.com/package/json-server

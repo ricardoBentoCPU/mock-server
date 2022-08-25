@@ -6,9 +6,14 @@ server.use(middleware);
 server.use(jsonServer.bodyParser);
 
 const userData = require('../server/data/users');
+const conferenceData = require('../server/data/users');
 
 server.get('/api/users', (req, res, next) => {
   res.status(200).send(userData.getUsers);
+});
+
+server.get('/api/conference', (req, res, next) => {
+  res.status(200).send(userData.getConference);
 });
 
 server.listen(3000, () => {
